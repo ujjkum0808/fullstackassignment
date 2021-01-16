@@ -1,0 +1,2 @@
+Mysql Assignment->  Done (But facing problems in foreign key concept).
+Core java Assignment->  All Done
