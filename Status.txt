@@ -1,2 +1,2 @@
-Mysql Assignment->  Done (But facing problems in foreign key concept).
+Mysql Assignment->  few Questions related to foreign key are pending (facing problems in foreign key concept).
 Core java Assignment->  All Done
