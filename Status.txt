@@ -1,4 +1,22 @@
-Mysql Assignment->  few Questions related to foreign key are pending (facing problems in foreign key concept).
+Mysql Assignment-> Select clause with where clause(Total 9 Questions)-> done
+                                        Join(Total 5 Questions)->3 done, 2 pending
+                                        Functions (Total 9 questions)-> done
+                                        MySQL Aggregate function(Total 10 questions)-> done 
+                                        DML Operation (Total 6 questions)-> done
+                                        DDL Assignments  with Constraints (Total 5 questions)->3 done, 2 pending
+                                        Sub Query (Total 8 questions)->done
+
+Doubts Questions:
+1. Table -----> Account 
+		accountNumber, openingBalance, typeOfAccount, status,BankId,CustId
+		Add the Constraints 
+		accountNumber is primary key 
+		openingBalance must be greater than 5000
+		typeOfAccount must be saving/current
+		BankId is foreign key refer to BranchId(Primary key) Branch table 
+		CustId is foreign key refer to Customer(Primary key) Customer table. 
+2. Display department name, manager name, and city.
+
 
 Core java Assignment->  Assignment 1 (Online Examination)-> Done
 		       Assignment 2 (Employee Details)-> Done
