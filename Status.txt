@@ -23,6 +23,6 @@ Core java Assignment->  Assignment 1 (Online Examination)-> Done
                                                Assignment 3 (Employee Details using constructor)-> Done
                                                Assignment 4 (Employee Test using inheritance)-> Done
                                                Assignment 5 (Student Details)-> Done
-                                               Assignment 6 (Bank Application)-> Done
+                                               Assignment 6 (Bank Application)-> Done(But Changes(Exception handling and package) not implemented)
                                                Assignment 7 (Sorting of String)-> Done
 	
