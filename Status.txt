@@ -1,2 +1,10 @@
 Mysql Assignment->  few Questions related to foreign key are pending (facing problems in foreign key concept).
-Core java Assignment->  done till assignment 5(only assignment 5 is pemding).
+
+Core java Assignment->  Assignment 1 (Online Examination)-> Done
+		       Assignment 2 (Employee Details)-> Done
+                                               Assignment 3 (Employee Details using constructor)-> Done
+                                               Assignment 4 (Employee Test using inheritance)-> Done
+                                               Assignment 5 (Student Details)-> Done
+                                               Assignment 6 (Bank Application)-> Done
+                                               Assignment 7 (Sorting of String)-> Done
+	
