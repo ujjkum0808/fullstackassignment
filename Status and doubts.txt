@@ -1,12 +1,12 @@
 Mysql Assignment-> Select clause with where clause(Total 9 Questions)-> done
-                                        Join(Total 5 Questions)->3 done, 2 pending
+                                        Join(Total 5 Questions)-> done
                                         Functions (Total 9 questions)-> done
                                         MySQL Aggregate function(Total 10 questions)-> done 
                                         DML Operation (Total 6 questions)-> done
-                                        DDL Assignments  with Constraints (Total 5 questions)->3 done, 2 pending
+                                        DDL Assignments  with Constraints (Total 5 questions)->done
                                         Sub Query (Total 8 questions)->done
 
-Doubts Questions:
+Doubt Questions:
 1. Table -----> Account 
 		accountNumber, openingBalance, typeOfAccount, status,BankId,CustId
 		Add the Constraints 
@@ -23,6 +23,6 @@ Core java Assignment->  Assignment 1 (Online Examination)-> Done
                                                Assignment 3 (Employee Details using constructor)-> Done
                                                Assignment 4 (Employee Test using inheritance)-> Done
                                                Assignment 5 (Student Details)-> Done
-                                               Assignment 6 (Bank Application)-> Done(But Changes(Exception handling and package) not implemented)
+                                               Assignment 6 (Bank Application)-> Done
                                                Assignment 7 (Sorting of String)-> Done
 	
