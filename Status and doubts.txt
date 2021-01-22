@@ -25,4 +25,5 @@ Core java Assignment->  Assignment 1 (Online Examination)-> Done
                                                Assignment 5 (Student Details)-> Done
                                                Assignment 6 (Bank Application)-> Done
                                                Assignment 7 (Sorting of String)-> Done
+ 		       Assignment 8 (Comparator)-> Done
 	
