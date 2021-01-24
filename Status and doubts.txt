@@ -18,5 +18,5 @@ Core java Assignment->  Assignment 1 (Online Examination)-> Done
                                                Assignment 7 (Sorting of String)-> Done
  		       Assignment 8 (Comparator)-> Done
 		       Assignment 9(Filehandling)->Done
-		       Assignment 10(Mini project 2)(Product Management)->Done(Till sprint 2).
+		       Assignment 10(Mini project 2)(Product Management)->Done(Till sprint 1).
 	
