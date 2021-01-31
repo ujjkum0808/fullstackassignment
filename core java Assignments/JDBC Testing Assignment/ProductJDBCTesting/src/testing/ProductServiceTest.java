@@ -102,13 +102,25 @@ public class ProductServiceTest {
 		assertEquals("Earphone", p2.getPname());		
 	}
 	
-	//@Test
+	@Test
 	public void testDisplayProductBYNameASC()
 	{
 		List<Product> listofproduct=ps.DisplayProductBYNameASC();
-		assertEquals(3, listofproduct.size());
+		assertEquals(2, listofproduct.size());
 		Product p= listofproduct.get(0);
-		assertEquals("charger", p.getPname());
+		assertEquals("Earphone", p.getPname());
+		/*Product p1= listofproduct.get(1);
+		assertEquals("Earphone", p1.getPname());
+		Product p2= listofproduct.get(2);
+		assertEquals("TV", p2.getPname());*/		
+	}
+	//@Test
+	public void testDisplayProductBYNameDESC()
+	{
+		List<Product> listofproduct=ps.DisplayProductBYNameDESC();
+		assertEquals(2, listofproduct.size());
+		Product p= listofproduct.get(0);
+		assertEquals("mobile", p.getPname());
 		/*Product p1= listofproduct.get(1);
 		assertEquals("Earphone", p1.getPname());
 		Product p2= listofproduct.get(2);

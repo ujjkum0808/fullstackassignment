@@ -89,6 +89,11 @@ public class ProductService {
 		Comparator<Product> SortNameASC=(Product p1,Product p2)->p1.getPname().compareTo(p2.getPname());
 		return (List<Product>)listofproduct1.stream().sorted(SortNameASC).collect(Collectors.toList());
 	}
+	public List<Product> DisplayProductBYNameDESC()
+	{
+		Comparator<Product> SortNameDESC=(Product p1,Product p2)->p1.getPname().compareTo(p2.getPname());
+		return (List<Product>)listofproduct1.stream().sorted(SortNameDESC.reversed()).collect(Collectors.toList());
+	}
 	
 
 
