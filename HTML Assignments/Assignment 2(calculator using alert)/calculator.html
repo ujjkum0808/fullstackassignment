@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+</head>
+<body>
+    <script type="text/JavaScript">
+        var i=1;
+        do{
+            var choice=prompt("Enter 1 for add, 2 for subtract, 3 for exit")
+            switch (eval(choice)) 
+            {
+                case 1:var a=prompt("Enter a: ")
+                       var b=prompt("Enter b: ")
+                       var sum=eval(a)+eval(b);
+                       alert("Sum="+sum) 
+                        break;
+                case 2:var a=prompt("Enter a: ")
+                       var b=prompt("Enter b: ")
+                       var dif=eval(a)-eval(b);
+                       alert("difference="+dif) 
+                        break;
+                case 3:i=0;
+                         break;
+                default:alert("invalied choice")
+                          break;
+            }
+        }while(i)
+
+    </script>
+</body>
+</html>

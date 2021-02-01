@@ -22,5 +22,9 @@ Core java Assignment->  Assignment 1 (Online Examination)-> Done
 		       Assignment 11(Mini project 2)(sprint 3)(JDBC)->Done.
 		       Assignment 12(Mini Project 2)(Testing)-> Done.
 
-HTML Assignments->      Done
+HTML Assignments-> Assignment 1(Login Page)->Done
+		 Assignment 2(calculator using alert)->Done
+		 Assinment 3(Online calculator)->Done
+		 Assignment 4(Validation)->Done
+
 	

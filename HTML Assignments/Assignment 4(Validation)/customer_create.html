@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer_create</title>
+    <link rel="stylesheet" href="customercreate.css">
+    <script type="text/JavaScript">
+    function validate()
+    {
+        var fname=document.getElementById("fname").value
+        var lname=document.getElementById("lname").value
+        var male=document.getElementById("male")
+        var female=document.getElementById("female")
+        var age=document.getElementById("age").value
+        var phnumber=document.getElementById("phnumber").value
+        var usernm=document.getElementById("username").value
+        var pass=document.getElementById("password").value
+        if(fname.length==0)
+        {
+            alert("First name required.");
+            return false;
+        }
+        else if(lname.length==0)
+        {
+            alert("Last name required.");
+            return false;
+        }
+        else if(!(male.checked || female.checked))
+        {
+            alert("Gender required");
+            return false;
+        }
+        else if(age.length==0)
+        {
+            alert("age required.");
+            return false;
+        }
+        else if(phnumber.length==0)
+        {
+            alert("Phone number required.");
+            return false;
+        }
+        else if(usernm.length==0)
+        {
+            alert("Username Required.");
+            return false;
+        }
+        else if(pass.length==0)
+        {
+            alert("password required.");
+            return false;
+        }
+        else
+        {
+            var pass_val= /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,20}$/;
+            if(age<21)
+            {
+                alert("Age should be greater then 21 years")
+                return false;
+            }
+            else if(phnumber.length<10 || phnumber.length>10)
+            {
+                alert("Phone number must be of 10 digits.")
+                return false;
+            }
+            else if(!(pass.match(pass_val)))
+            {
+                alert("Not an appropriate password")
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+    }
+        
+    </script>
+</head>
+<body>
+    <div class="main_div">
+        <h3>Enter Details</h3>
+            <form action="" method="POST">
+                <div>
+                     <label for="">FirstName</label>
+                     <input type="text" name="fname" class="fname" id="fname"><br>
+                </div>
+                <div>
+                     <label for="">LastName</label>
+                     <input type="text" name="lname" class="lname" id="lname"><br>
+                </div>
+                <div>
+                      <label for="">Gender</label>
+                      <input type="radio" name="gg" class="male" value="Male"id="male">Male 
+                      <input type="radio" name="gg" class="female" value="Female" id="female">Female <br>
+                </div>
+                <div>
+                    <label for="">Age</label>
+                    <input type="number" name="age" class="age" id="age"><br>
+               </div>
+                <div>
+                    <label for="">Phone Number</label>
+                    <input type="number" name="phNumber" class="number" id="phnumber"><br>
+                </div>
+                <div>
+                    <label for="">Username</label>
+                    <input type="text" name="username" class="usernm" id="username"><br>
+                </div>
+                <div>
+                    <label for="">Password</label>
+                    <input type="password" name="password" class="pass" id="password"><br>
+                </div>
+                
+                    <input type="submit" value="Submit" class="submitbtn" onclick="return validate()">
+                    <input type="reset" value="Reset" class="resetbtn">
+                
+
+            </form>
+    </div>
+</body>
+</html>
