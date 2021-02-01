@@ -1,0 +1,89 @@
+body{
+    background-color:rgb(127, 127, 245);
+}
+.main_div{
+    background-color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 330px;
+    height: 470px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    border-radius: 10px;
+}
+.main_div h3{
+    text-align: center;
+}
+.main_div label{
+    margin-left: 10px;
+}
+.fname{
+    margin-left: 37px;
+    height: 20px;
+    width: 55%;
+}
+.lname{
+    margin-top: 12px;
+    margin-left: 37px;
+    height: 20px;
+    width: 55%;
+}
+.male{
+    margin-left: 56px;
+    margin-top: 12px;
+}
+.female{
+    margin-left: 20px;
+}
+.age{
+    margin-top: 12px;
+    margin-left: 79px;
+    height: 20px;
+    width: 55%;
+}
+.number{
+    margin-top: 12px;
+    height: 20px;
+    width: 55%;
+}
+.usernm{
+    margin-top: 12px;
+    margin-left: 37px;
+    height: 20px;
+    width: 55%;
+}
+.pass{
+    margin-top: 12px;
+    margin-left: 41px;
+    height: 20px;
+    width: 55%;
+}
+.submitbtn{
+    margin-top: 35px;
+    margin-left: 65px;
+    text-align: center;
+    width: 30%;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 15px;
+}
+.resetbtn{
+    text-align: center;
+    margin-left: 30px;
+    width: 30%;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid;
+    cursor: pointer;
+    font-size: 15px;
+}
+.submitbtn:hover{
+    background-color: darkgray;
+}
+.resetbtn:hover{
+    background-color: darkgray;
+}
