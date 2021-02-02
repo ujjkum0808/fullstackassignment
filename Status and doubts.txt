@@ -26,5 +26,5 @@ HTML Assignments-> Assignment 1(Login Page)->Done
 		 Assignment 2(calculator using alert)->Done
 		 Assinment 3(Online calculator)->Done
 		 Assignment 4(Validation)->Done
-
+		 Assignment 5(Image slider using setInterval)->Done
 	

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/JavaScript">
+        var start=1;
+        function set_time()
+        {
+            setInterval(image_show,1000);    
+        }
+        function image_show()
+        {
+            var image_data;
+            if(start==1)
+            {
+                image_data="img1.jpg";
+            }
+            else if (start==2)
+            {
+                image_data="img2.jpg"
+            }
+            else if (start==3)
+            {
+                image_data="img3.jpg"
+            }
+            else if (start==4)
+            {
+                image_data="img4.jpg"
+            }
+            else
+            {
+                start=1;
+            }
+            document.getElementById("data").src=""+image_data;
+            start++;
+        }
+    </script>
+</head>
+<body>
+    <div id="image-data" style="width: 400;height: 300; text-align: center;">
+        <img src="img1.jpg" width="400" height="300" id="data"></img>
+        <input type="submit" name="btn" id="btn" onclick="set_time()">
+    </div>
+    
+</body>
+</html>
