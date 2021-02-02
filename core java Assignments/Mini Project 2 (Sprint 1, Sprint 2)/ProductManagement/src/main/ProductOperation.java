@@ -19,15 +19,15 @@ public class ProductOperation {
 		boolean flag=true; 
 		String id = null;
 		float price;
+		String name;
 		
-		//ObjectOutputStream out=new ObjectOutputStream(new FileOutputStream("newobjectfile.txt"));
-		//out.writeObject(ps);
-		
-		Product p=new Product();
-		ObjectOutputStream out=new ObjectOutputStream(new FileOutputStream("newobjectfile.txt"));
-		out.writeObject(p);
-		
-		
+		//Deserialisation
+		FileInputStream fis=new FileInputStream("newobjectfile.txt");
+		ObjectInputStream in=new ObjectInputStream(fis);
+		Product p1=(Product)in.readObject();
+		System.out.println("id="+p1.getPid()+", Name="+p1.getPname()+", Price="+p1.getPrice());
+		in.close();
+		fis.close();
 		
 		
 		do
@@ -41,7 +41,7 @@ public class ProductOperation {
 				
 				sc.nextLine();
 				System.out.println("Enter product name:");
-				String name=sc.nextLine();
+				name=sc.nextLine();
 				System.out.println("Enter product price:");
 				price=sc.nextFloat();
 				id=ps.addProduct(a, name, price);
